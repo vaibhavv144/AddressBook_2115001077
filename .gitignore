@@ -1,0 +1,67 @@
+# Visual Studio specific
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.obj
+*.log
+*.tlog
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+Backup*/
+
+# Build and dependencies
+bin/
+obj/
+out/
+TestResults/
+*.exe
+*.dll
+*.appx
+*.ipa
+*.so
+*.dylib
+*.a
+*.lib
+*.nupkg
+*.snupkg
+*.sqlproj.user
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+project.assets.json
+
+# ASP.NET
+App_Data/
+App_Backup/
+App_GlobalResources/
+App_LocalResources/
+App_WebReferences/
+App_Code/
+App_Themes/
+*.publishsettings
+*.pubxml
+*.publishproj
+# IIS Express
+/.vs/config/applicationhost.config
+/IISExpress/
+
+# Entity Framework
+Migrations/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Logs and user-specific
+*.log
+*.tlog
+*.bak
